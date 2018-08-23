@@ -41,29 +41,16 @@ public class Problem2 {
         return result;
     }
 
-    private ListNode processInput(String numberInString){
-        StringTokenizer tokenizer = new StringTokenizer(numberInString," ");
-        ListNode startNode = new ListNode(Integer.parseInt(tokenizer.nextToken()));
-        ListNode result = startNode;
-        while(tokenizer.hasMoreTokens()){
-            ListNode node = new ListNode(Integer.parseInt(tokenizer.nextToken()));
-            startNode.next = node;
-            startNode = startNode.next;
-        }
-        startNode.next = null;
-        return result;
-    }
-
     public static void main(String[] args) throws Exception {
         Problem2 solution = new Problem2();
         File file = new File("inputs/2.txt");
         System.out.println(file.exists());
         Scanner input = new Scanner(file);
         String firstInput = input.nextLine();
-        ListNode l1 = solution.processInput(firstInput);
+        ListNode l1 = Utility.processInput(firstInput);
         System.out.println(l1);
         String secondInput = input.nextLine();
-        ListNode l2 = solution.processInput(secondInput);
+        ListNode l2 = Utility.processInput(secondInput);
         System.out.println(l2);
         ListNode result = solution.addTwoNumbers(l1,l2);
         System.out.println(result);
@@ -71,22 +58,5 @@ public class Problem2 {
 }
 
 
-class ListNode {
-     int val;
-     ListNode next;
-     ListNode(int x) {
-         val = x;
-     }
 
-    @Override
-    public String toString() {
-        ListNode self = this;
-        String result = "" + val;
-        while(self.next != null){
-            self = self.next;
-            result += "->" +self.val;
-        }
-        return result;
-    }
-}
 
