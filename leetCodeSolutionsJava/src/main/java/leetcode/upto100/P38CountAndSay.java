@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class P38CountAndSay {
     public String countAndSay(int n) {

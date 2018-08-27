@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class Problem7ReverseInteger {
     public int reverse(int x) {

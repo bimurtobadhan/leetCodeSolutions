@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class P27RemoveElement {
     public int removeElement(int[] nums, int val) {

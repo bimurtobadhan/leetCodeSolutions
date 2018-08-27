@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class P58LengthOfLastWord {
     public int lengthOfLastWord(String s) {

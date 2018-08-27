@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 import java.io.File;
 import java.util.*;

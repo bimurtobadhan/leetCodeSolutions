@@ -1,8 +1,10 @@
-package leetcode;
+package leetcode.upto100;
+
+import leetcode.util.ListNode;
+import leetcode.util.Utility;
 
 import java.io.File;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 /**
  * Created by bimurto on 1/7/17.

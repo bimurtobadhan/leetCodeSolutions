@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class P28ImplementStrStr {
     public int strStr(String haystack, String needle) {

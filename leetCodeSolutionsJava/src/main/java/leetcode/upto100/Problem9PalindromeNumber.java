@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class Problem9PalindromeNumber {
     public boolean isPalindrome(int x) {

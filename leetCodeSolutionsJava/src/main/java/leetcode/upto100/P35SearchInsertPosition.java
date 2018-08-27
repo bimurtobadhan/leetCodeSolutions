@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.upto100;
 
 public class P35SearchInsertPosition {
 //    public int searchInsert(int[] nums, int target) {

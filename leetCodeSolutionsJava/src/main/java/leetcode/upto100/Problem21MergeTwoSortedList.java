@@ -1,4 +1,7 @@
-package leetcode;
+package leetcode.upto100;
+
+import leetcode.util.ListNode;
+import leetcode.util.Utility;
 
 import java.io.File;
 import java.io.FileNotFoundException;
